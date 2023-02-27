@@ -26,7 +26,7 @@ body{
                 .top_nav_bar_items{
                     display: flex;
                     justify-content: space-between;
-                    padding-top: 23px;
+                    padding-top: 17px;
                     .address_and_phone{
                         display: flex;
                         justify-content: space-between;
@@ -118,16 +118,13 @@ body{
             &_menu li a:hover::after{
                 content: "";
                 background-image: url("./images/arrow_down_green.svg");
-                background-repeat: no-repeat;
                 height: 20px;
                 width: 20px;
                 margin-left: 5px;
-                margin-top: 4px;
             }
             &_menu li a::after{
                 content: "";
-                background-image: url("./images/arrow_down_black.svg");
-                background-repeat: no-repeat;
+                background: url("./images/arrow_down_black.svg") center center no-repeat;
                 height: 20px;
                 width: 20px;
                 margin-left: 5px;
